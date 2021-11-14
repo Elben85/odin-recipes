@@ -1,26 +1,29 @@
-body{
+body {
     font-family: 'Times New Roman', Times, serif;
-    background: linear-gradient(#ff0000, #ff00ff, #0000ff);;
+    background: linear-gradient(#ff000070, #ff00ff70, #0000ff70);
     text-align: center
-
 }
 
-.subsection{
+br {
+    margin-bottom: 1cm;
+}
+
+.subsection {
     font-size: 1cm;
     text-decoration-line: underline;
-    color: white;
 }
-img{
+
+img {
     image-resolution: 600 dpi;
 }
 
- button{
-     background:black;
-     color: white;
-     font-size: 0.8cm;
+button {
+    background: black;
+    color: white;
+    font-size: 0.8cm;
 }
 
-.title{
+.title {
     text-align: center;
     font-size: 1.5cm;
     color: white;
@@ -28,5 +31,16 @@ img{
     border: yellow;
 }
 
+.content {
+    font-size: 14pt;
+    text-align: justify;
+}
 
+.return-link {
+    font-size: 18pt;
+    background: red;
+}
 
+a {
+    color: black;
+}
